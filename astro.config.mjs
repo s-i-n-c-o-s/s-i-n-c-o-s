@@ -6,5 +6,5 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://yangzhang04.github.io',
-	base: '/yangzhang04'
+	base: '/'
 });
