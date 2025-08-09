@@ -5,15 +5,15 @@ import { SITE_TITLE } from '../consts';
 
 <header>
 	<nav>
-		<h2><a href="/">{SITE_TITLE}</a></h2>
+		<h2><a href={import.meta.env.BASE_URL}>{SITE_TITLE}</a></h2>
 		
 		<div class="welcome-message">
 			👩‍💻 <span class="gradient-text"> Welcome to My World! It is under construction...</span>
 		</div>
 		
 		<div class="internal-links">
-			<HeaderLink href="/">Home</HeaderLink>
-			<HeaderLink href="/blog">Blog</HeaderLink>
+			<HeaderLink href={import.meta.env.BASE_URL}>Home</HeaderLink>
+			<HeaderLink href={`${import.meta.env.BASE_URL}/blog`}>Blog</HeaderLink>
 		</div>
 	</nav>
 </header>
