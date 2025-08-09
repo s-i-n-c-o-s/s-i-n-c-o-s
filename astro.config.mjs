@@ -5,5 +5,5 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://s-i-n-c-o-s.github.io'
+	site: 'https://yangzhang04.github.io'
 });
