@@ -3,3 +3,4 @@
 
 export const SITE_TITLE = 'Yang Zhang\'s Blog';
 export const SITE_DESCRIPTION = 'Welcome to my website!';
+
